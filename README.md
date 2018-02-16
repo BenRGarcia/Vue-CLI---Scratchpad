@@ -1,10 +1,12 @@
-# Vue CLI -- Scratchpad Notes
-Notes (last updated: 2/16/2018)
+# Vue.js CLI - Notes
+(last updated: 2/16/2018)
 
 ### Project Goal:
 Create a project using Vue.js CLI, webpack, bootstrap v4, git for version control, and deploy to github pages
 
 ### Links:
+
+A [Vue.js Template](https://github.com/BenRGarcia/Vue.js-Bootstrapv4-Template) I made
 
 [Vue.js 2.x Guide](https://vuejs.org/v2/guide/installation.html#CLI)
 
