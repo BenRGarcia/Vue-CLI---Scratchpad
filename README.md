@@ -84,7 +84,7 @@ $(function () {
 
 2) By default, webpack can only compute javascript (e.g. not CSS). Since we need webpack to handle Bootstrap's CSS, we need a couple webpack "[loaders](https://webpack.js.org/guides/asset-management/#loading-css)"
 
-#### **But** here's the good news: 
+#### But here's the good news: 
 
 Vue.js' `vue-loader` is already in the webpack config and already handles the `style-loader` and `css-loader` stuff. We should **NOT** follow bootstrap's webpack instructions for those 2 things
 
