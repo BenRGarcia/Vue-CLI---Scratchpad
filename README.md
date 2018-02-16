@@ -53,7 +53,8 @@ function tedious() {
 ```
 ...when you can instead make a **script** do it
 
-From inside your root's `package.json`, add a script to the `"scripts": {}` object that looks like so:
+From inside your root's `package.json`, add a script to the `"scripts": {}` object that looks like so:  
+(update GitHub repo link to be your own repo)
 ```
 "deploy": "rm -rf dist && npm run build && cd dist && git init && git add . && git commit -m \"Initial commit\" && git remote add origin <github's remote ssh/https link> && git push --force origin master:gh-pages"
 ```
