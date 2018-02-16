@@ -25,4 +25,7 @@ Create a project using Vue.js CLI, webpack, bootstrap v4, git for version contro
 4) back in root directory, `npm run build` to bundle project into newly created `dist/` folder
 
 ### 3) Initialize git repo
-1) 
+1) `git init`
+2) `git add .`
+3) `git commit -m "Initial commit"`
+4) `git remote add origin <github's remote SSH/https link>`
