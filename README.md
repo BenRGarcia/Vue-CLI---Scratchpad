@@ -112,6 +112,10 @@ plugins: [
 
 My Personal FAQs:
 
-Where should I save/how do I link my custom css files?
+**Q: Where should I save/how do I link my custom css files?**
 
-Where should I save/how do I link my custom js files?
+A: 
+
+**Where should I save/how do I link my custom js files?**
+
+A: 
