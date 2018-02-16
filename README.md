@@ -114,13 +114,15 @@ My Personal FAQs:
 
 **Q: Where should I save/how do I link my custom .css/.js files?**
 
-A1: (Where to save) You can save your files anywhere in your `src/` folder... webpack is awesome and will find it. But for good hygiene, it's probably best if you save them according to a ["Folders-by-Feature"](https://github.com/johnpapa/angular-styleguide/blob/master/a1/README.md#application-structure) structure.
+FYI: You can save your files anywhere in your `src/` folder... webpack is awesome and will find it. But for good hygiene, it's probably best if you save them according to a ["Folders-by-Feature"](https://github.com/johnpapa/angular-styleguide/blob/master/a1/README.md#application-structure) structure.
 
-A2: (How to link) For a Vue.js project, components (think of a .vue file with `<template>`/`<script>`/`<style scoped>`) import other .vue components with the:
+A1: (Where to save) Each component's css/js will typically be in its corresponding .vue file. Any links to external style sheets that apply to just that component could be linked with `<style src="path-to-stylesheet"></style>` (probably would only ever happen for the `App.vue file`?).
+
+A2: (How to link) For a Vue.js project, components (think of a `.vue` file with `<template>`/`<script>`/`<style scoped>`) import other `.vue` components with the:
 ```js
 import <file-name or export-name> from './file-path-to/component'
 ```
-and exported with this syntax:
+and exported with this syntax (as well as other syntax):
 ```js
 export default {
   // ...
