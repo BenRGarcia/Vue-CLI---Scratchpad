@@ -66,11 +66,12 @@ And now you can create a production build and deploy to your github pages branch
 ### 6) Install Bootstrap and its dependencies, jQuery/popper.js/and whatever else npm prompts you to
 `$ npm install --save boostrap jquery popper.js`
 
-### 7) So... can I start coding yet? (No, not yet)
+### 7) So... can I start coding yet? (No, not yet) webpack configuration time...
 
-webpack configuration time... to simplify/reduce `import` and `require()` statements, use webpack's [ProvidePlugin](https://webpack.js.org/plugins/provide-plugin/)
+Use webpack's [ProvidePlugin](https://webpack.js.org/plugins/provide-plugin/) to automatically load modules instead of having to `import` or `require` them everywhere
 
-1) 
+
+1) Go to `build/webpack.base.conf.js`
 
 Questions:
 ###### 1) How do I `require`/`import` bootstrap/jquery/popper.js in my project?
