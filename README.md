@@ -25,20 +25,20 @@ Create a project using Vue.js CLI, webpack, bootstrap v4, git for version contro
 4) back in root directory, `npm run build` to bundle project into newly created `dist/` folder
 
 ### 3) Initialize git repo
-1) `git init`
-2) `git add .`
-3) `git commit -m "Initial commit"`
-4) `git remote add origin <github's remote ssh/https link>`
-5) `git push -u origin master`
+1) `$ git init`
+2) `$ git add .`
+3) `$ git commit -m "Initial commit"`
+4) `$ git remote add origin <github's remote ssh/https link>`
+5) `$ git push -u origin master`
 
 ### 4) Create branch (for GitHub pages) and deploy from production code directory
 (FYI - the `dist/` folder is `.gitignore`'d by default... use this to our advantage)
-1) `cd dist`
-2) `git init`
-3) `git add .`
-4) `git commit -m "Initial commit"`
-5) `git remote add origin <github's remote ssh/https link>`
-6) `git push --force origin master:gh-pages`
+1) `$ cd dist`
+2) `$ git init`
+3) `$ git add .`
+4) `$ git commit -m "Initial commit"`
+5) `$ git remote add origin <github's remote ssh/https link>`
+6) `$ git push --force origin master:gh-pages`
 7) Check GitHub pages link for successful deployment of Vue.js default theme content
 
 ### 5) Automate for future build/deployments
@@ -57,7 +57,7 @@ From inside your root's `package.json`, add script to `scripts` that looks like 
 
 And now you can create a production build and deploy to your github pages branch with as little as:
 
-`npm run deploy`
+`$ npm run deploy`
 
 
 
