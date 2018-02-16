@@ -73,7 +73,7 @@ import 'bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 ```
 
-2) By default, webpack can only compute javascript (e.g. not CSS). Since we need webpack to handle Bootstrap's CSS, we need a couple webpack "loaders" [webpack guide here](https://webpack.js.org/guides/asset-management/#loading-css)
+2) By default, webpack can only compute javascript (e.g. not CSS). Since we need webpack to handle Bootstrap's CSS, we need a couple webpack "loaders" - [webpack guide here](https://webpack.js.org/guides/asset-management/#loading-css)
 
 Here's the good news: **`vue-loader` is already in the CLI and we should NOT follow bootstrap's webpack instructions here**
 
