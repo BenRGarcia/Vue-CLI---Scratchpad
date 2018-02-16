@@ -99,6 +99,7 @@ inside of the `module.exports` object, add this object:
 } 
 // Aaaaaand now your non-Vue-CLI webpack project can handle CSS
 ```
+now... back the relevant instructions...
 
 3) Use webpack's [ProvidePlugin](https://webpack.js.org/plugins/provide-plugin/) to automatically load modules (e.g. jQuery and Popper.js) instead of having to `import` or `require` them everywhere
 
