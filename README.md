@@ -64,7 +64,7 @@ And now you can create a production build and deploy to your github pages branch
 
 ### 7) So... can I start coding yet? (No, not yet...) Import/webpack configuration time...
 
-1) Add bootstrap and, just to keep it simple, its already-compiled CSS to the "entry point":
+1) Add (aka `require()`, aka `import`) bootstrap and, just to keep it simple, its already-compiled CSS to the "entry point":
 
 In **`src/main.js`**, add this:
 ```js
