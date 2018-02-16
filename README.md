@@ -47,7 +47,7 @@ Create a project using Vue.js CLI, webpack, bootstrap v4, git for version contro
 
 ### 5) Automate for future build/deployments
 Don't do this every time you want to deploy...
-```
+```js
 function tedious() {
   // deleting the `dist/` folder, `npm build`, then Step 4 from above
 } 
