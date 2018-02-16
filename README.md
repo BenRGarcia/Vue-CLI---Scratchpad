@@ -12,13 +12,7 @@ Create a project using Vue.js CLI, webpack, bootstrap v4, git for version contro
 
 [Bootstrap v4 webpack](https://getbootstrap.com/docs/4.0/getting-started/webpack/)
 
-[webpack](https://webpack.js.org/concepts/)
-
-[webpack configuration](https://webpack.js.org/configuration/)
-
-[webpack loaders](https://webpack.js.org/loaders/)
-
-[webpack plugins](https://webpack.js.org/plugins/)
+[webpack](https://webpack.js.org/concepts/), [webpack configuration](https://webpack.js.org/configuration/), [webpack loaders](https://webpack.js.org/loaders/), [webpack plugins](https://webpack.js.org/plugins/)
 
 ## Process:
 
