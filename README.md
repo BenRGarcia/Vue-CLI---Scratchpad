@@ -59,7 +59,8 @@ And now you can create a production build and deploy to your github pages branch
 
 `$ npm run deploy`
 
-
+### 6) Install Bootstrap and its dependencies, jQuery, popper, and whatever else npm tells you to
+`$ npm install --save boostrap jquery popper.js`
 
 
 
