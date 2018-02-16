@@ -26,7 +26,7 @@ Create a project using Vue.js CLI, webpack, bootstrap v4, git for version contro
 1) `$ vue init webpack <project-title>` and then follow prompts
 2) `$ cd <project-title>` (enter newly created directory)
 3) go to `/config/index.js`, find the `build` object, and change `assetsPublicPath:`'s value to `'./`
-4) back in root directory, `npm run build` to bundle project into newly created `dist/` folder
+4) back in root directory, `$ npm run build` to bundle project into newly created `dist/` folder
 
 ### 3) Initialize git repo
 1) `$ git init`
@@ -66,7 +66,7 @@ And now you can create a production build and deploy to your github pages branch
 ### 6) Install Bootstrap and its dependencies (jQuery, popper.js, whatever else npm says)
 `$ npm install --save boostrap jquery popper.js`
 
-### 7) So... can I start coding yet? (No, not yet) Import/webpack configuration time...
+### 7) So... can I start coding yet? (No, not yet...) Import/webpack configuration time...
 
 1) Add bootstrap and, just to keep it simple, its already-compiled CSS to the "entry point":
 
@@ -89,7 +89,8 @@ and inside the `module.exports` object, just below the `module` and above the `n
 plugins: [
   new webpack.ProvidePlugin({
   $: 'jquery',
-  jQuery: 'jquery'
+  jQuery: 'jquery',
+  Popper: ['popper.js', 'default'] 
 })
 ]
 ```
