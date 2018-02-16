@@ -72,7 +72,23 @@ import 'bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 ```
 
-2) Use webpack's [ProvidePlugin](https://webpack.js.org/plugins/provide-plugin/) to automatically load modules (e.g. jQuery and Popper.js) instead of having to `import` or `require` them everywhere
+2) webpack can only compute JS by default (not CSS). Since we need webpack handle Bootstraps CSS, we need a webpack "loader"
+
+In your root directory:
+```$ npm install -D style-loader css-loader```
+
+In **`build/webpack.base.conf.js`**, add this:
+
+inside of the `module.exports` object, add this object:
+```js
+{
+  test: /\.css$/,
+  use: ['style-loader', 'css-loader']
+} 
+// Aaaaaand now webpack can handle CSS
+```
+
+3) Use webpack's [ProvidePlugin](https://webpack.js.org/plugins/provide-plugin/) to automatically load modules (e.g. jQuery and Popper.js) instead of having to `import` or `require` them everywhere
 
 In **`build/webpack.base.conf.js`**, add this:
 
