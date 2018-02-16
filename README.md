@@ -17,7 +17,7 @@ Create a project using Vue.js CLI, webpack, bootstrap v4, git for version contro
 ## Process:
 
 ### 1) Create new GitHub repo
-From GitHub, "Create New Repository" -- don't create README yet, and don't clone
+From GitHub, "Create New Repository" -- don't create README yet, and don't clone either
 
 ### 2) Create new Vue.js project using the webpack template
 1) `$ vue init webpack <project-title>` and then follow prompts
