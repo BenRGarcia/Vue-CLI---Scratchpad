@@ -1,6 +1,10 @@
 # Vue CLI -- Scratchpad Notes
 
-Notes about Vue CLI, Webpack, Bootstrap v4 (last updated: 2/15/2018)
+Notes (last updated: 2/15/2018)
+
+## Project Goal:
+
+Create a project using Vue.js CLI, webpack, bootstrap v4, git, and github pages
 
 ## [Vue.js 2.x CLI tool](https://vuejs.org/v2/guide/installation.html#CLI)
 
