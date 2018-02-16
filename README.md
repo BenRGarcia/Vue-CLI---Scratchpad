@@ -86,11 +86,10 @@ $(function () {
 
 #### But here's the good news: **Vue.js' `vue-loader` is already in the webpack config and already handles the `style-loader` and `css-loader` stuff. We should NOT follow bootstrap's webpack instructions for those 2 things**
 
-FYI: If you needed to do this manually for a different, non-Vue-CLI project:  
-In your root directory:  
-```$ npm install -D style-loader css-loader```  
-In **`build/webpack.base.conf.js`**, add this:  
-inside of the `module.exports` object, add this object:
+> FYI: If you needed to do this manually for a different, non-Vue-CLI project:  
+> In your root directory:  
+> ```$ npm install -D style-loader css-loader```  
+> In **`build/webpack.base.conf.js`**, inside of the `module.exports` object, add this object:
 ```js
 {
   test: /\.css$/,
