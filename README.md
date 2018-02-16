@@ -51,7 +51,9 @@ function tedious() {
 when you can instead... **SCRIPTIFY IT**
 
 From inside your root's `package.json`, add script to `scripts` that looks like so:
-`"deploy": "rm -rf dist && npm run build && cd dist && git init && git add . && git commit -m \"Initial commit\" && git remote add origin <github's remote ssh/https link> && git push --force origin master:gh-pages"`
+```
+"deploy": "rm -rf dist && npm run build && cd dist && git init && git add . && git commit -m \"Initial commit\" && git remote add origin <github's remote ssh/https link> && git push --force origin master:gh-pages"
+```
 
 And now you can create a production build and deploy to your github pages branch with as little as:
 `npm run deploy`
