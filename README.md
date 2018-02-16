@@ -128,7 +128,7 @@ My Personal FAQs:
 
 FYI: You can save your files anywhere in your `src/` folder... Vue CLI + webpack are awesome and will find them. But for good hygiene, it's probably best if you save them according to a ["Folders-by-Feature"](https://github.com/johnpapa/angular-styleguide/blob/master/a1/README.md#application-structure) structure.
 
-A1: (Where to save) Each component's css/js will typically be in its corresponding `.vue` component file. Any links to external style sheets, other `.vue` component files, or `.js` files work exactly the same way as non-Vue projects -- just regular 
+A1: (Where to save) Each component's css/js will typically be in its corresponding `.vue` component file. Any links to external style sheets, other `.vue` component files, or `.js` files work exactly the same way as non-Vue projects -- just the same old way we always link them (with `<script src="...">` and `<style href="...">` links.
 
 A2: (How to link) For a Vue.js project, components (think of a `.vue` file with `<template>`/`<script>`/`<style scoped>`) import other `.vue` components with the:
 ```js
