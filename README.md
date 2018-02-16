@@ -51,7 +51,7 @@ function tedious() {
   // deleting the `dist/` folder, `npm build`, then Step 4 from above
 } 
 ```
-when you can instead... **SCRIPTIFY IT**
+when you can instead make a **script** do it
 
 From inside your root's `package.json`, add a script to the `"scripts": {}` object that looks like so:
 ```
