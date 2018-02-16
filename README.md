@@ -72,6 +72,13 @@ In **`src/main.js`**, add this:
 import 'bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 ```
+and this:
+```js
+$(function () {
+  $('[data-toggle="popover"]').popover(); // this will enable Bootstrap's popovers if you need them
+  $('[data-toggle="tooltip"]').tooltip(); // this will enable Bootstrap's tooltips if you need them
+})
+```
 
 2) By default, webpack can only compute javascript (e.g. not CSS). Since we need webpack to handle Bootstrap's CSS, we need a couple webpack "loaders" - [webpack guide here](https://webpack.js.org/guides/asset-management/#loading-css)
 
@@ -118,9 +125,9 @@ My Personal FAQs:
 
 **Q: Where should I save/how do I link my custom .css/.js files?**
 
-FYI: You can save your files anywhere in your `src/` folder... webpack is awesome and will find it. But for good hygiene, it's probably best if you save them according to a ["Folders-by-Feature"](https://github.com/johnpapa/angular-styleguide/blob/master/a1/README.md#application-structure) structure.
+FYI: You can save your files anywhere in your `src/` folder... Vue CLI + webpack are awesome and will find them. But for good hygiene, it's probably best if you save them according to a ["Folders-by-Feature"](https://github.com/johnpapa/angular-styleguide/blob/master/a1/README.md#application-structure) structure.
 
-A1: (Where to save) Each component's css/js will typically be in its corresponding `.vue` file. Any links to external style sheets that apply to just that component could be linked with `<style src="path-to-stylesheet"></style>` (probably would only ever happen for the `App.vue file`?).
+A1: (Where to save) Each component's css/js will typically be in its corresponding `.vue` component file. Any links to external style sheets, other `.vue` component files, or `.js` files work exactly the same way as non-Vue projects -- just regular 
 
 A2: (How to link) For a Vue.js project, components (think of a `.vue` file with `<template>`/`<script>`/`<style scoped>`) import other `.vue` components with the:
 ```js
