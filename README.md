@@ -99,8 +99,8 @@ Vue.js' `vue-loader` is already in the webpack config and already handles the `s
 } 
 // Aaaaaand now your non-Vue-CLI webpack project can handle CSS
 ```
-> 
-now... back the relevant instructions...
+
+**now**... back the relevant instructions...
 
 3) Use webpack's [ProvidePlugin](https://webpack.js.org/plugins/provide-plugin/) to automatically load modules (e.g. jQuery and Popper.js) instead of having to `import` or `require` them everywhere
 
