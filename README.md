@@ -6,7 +6,7 @@ Create a project using Vue.js CLI, webpack, bootstrap v4, git for version contro
 
 ### Links:
 
-A [Vue.js Template](https://github.com/BenRGarcia/Vue.js-Bootstrapv4-Template) I made
+A ready-to-go project template I made: [Vue.js Template](https://github.com/BenRGarcia/Vue.js-Bootstrapv4-Template)
 
 [Vue.js 2.x Guide](https://vuejs.org/v2/guide/installation.html#CLI)
 
