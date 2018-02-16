@@ -56,6 +56,7 @@ From inside your root's `package.json`, add script to `scripts` that looks like 
 ```
 
 And now you can create a production build and deploy to your github pages branch with as little as:
+
 `npm run deploy`
 
 
