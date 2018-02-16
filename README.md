@@ -73,7 +73,7 @@ import 'bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 ```
 
-2) webpack can only compute JS by default (not CSS). Since we need webpack handle Bootstraps CSS, we need a webpack "loader"
+2) webpack can only compute JS by default (not CSS). Since we need webpack to handle Bootstrap's CSS, we need a couple webpack "loaders"
 
 In your root directory:
 ```$ npm install -D style-loader css-loader```
@@ -108,11 +108,10 @@ plugins: [
 ]
 ```
 
-Questions:
-###### 1) How do I `require`/`import` bootstrap/jquery/popper.js in my project?
-###### 2) Where should I save my custom css files?
-###### 3) How do I link to my custom css files?
-###### 4) Where should I save my custom js files?
-###### 5) How do I link to my custom js files?
-###### 6) Seriously... can I start coding now?
+### 8) Can I start coding now? (Yes... yes you can)
 
+My Personal FAQs:
+
+Where should I save/how do I link my custom css files?
+
+Where should I save/how do I link my custom js files?
