@@ -79,6 +79,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 2) Use webpack's [ProvidePlugin](https://webpack.js.org/plugins/provide-plugin/) to automatically load modules (e.g. jQuery and Popper.js) instead of having to `import` or `require` them everywhere
 
 **`build/webpack.base.conf.js`**
+
 At the top of the file
 ```js
 const webpack = require('webpack'); //to access built-in plugins
