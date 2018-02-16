@@ -31,9 +31,12 @@ Create a project using Vue.js CLI, webpack, bootstrap v4, git for version contro
 4) `git remote add origin <github's remote ssh/https link>`
 5) `git push -u origin master`
 
-### 4) Create branch (gh-pages) and deploy
+### 4) Create branch (for GitHub pages) and deploy from production code directory
 (FYI - the `dist/` folder is `.gitignore`'d by default... use this to our advantage)
 1) `cd dist`
 2) `git init`
 3) `git add .`
 4) `git commit -m "Initial commit"`
+5) `git remote add origin <github's remote ssh/https link>`
+6) `git push --force origin master:gh-pages`
+**Check GitHub pages link for successful deployment of Vue.js default theme content**
