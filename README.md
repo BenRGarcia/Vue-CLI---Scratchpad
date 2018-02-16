@@ -87,11 +87,11 @@ const webpack = require('webpack'); //to access built-in plugins
 and inside the `module.exports` object, just below the `module` and above the `node` properties
 ```js
 plugins: [
-  new webpack.ProvidePlugin({
-  $: 'jquery',
-  jQuery: 'jquery',
-  Popper: ['popper.js', 'default'] 
-})
+    new webpack.ProvidePlugin({
+    $: 'jquery',
+    jQuery: 'jquery',
+    Popper: ['popper.js', 'default'] 
+  })
 ]
 ```
 
