@@ -70,7 +70,7 @@ And now you can create a production build and deploy to your github pages branch
 
 1) Add bootstrap and, just to keep it simple, its already-compiled CSS to the "entry point":
 
-**`src/main.js`**
+In **`src/main.js`**, add this:
 ```js
 import 'bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -78,7 +78,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 2) Use webpack's [ProvidePlugin](https://webpack.js.org/plugins/provide-plugin/) to automatically load modules (e.g. jQuery and Popper.js) instead of having to `import` or `require` them everywhere
 
-**`build/webpack.base.conf.js`**
+In **`build/webpack.base.conf.js`**, add this:
 
 At the top of the file
 ```js
