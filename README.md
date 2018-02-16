@@ -63,10 +63,11 @@ And now you can create a production build and deploy to your github pages branch
 `$ npm install --save boostrap jquery popper.js`
 
 ### 7) So... can I start coding yet? (No, not yet)
-1) How to I `require`/`import` bootstrap/jquery/popper.js in my project?
-1) Where should I save my custom css files?
-2) How do I link to my custom css files?
-3) Where should I save my custom js files?
-4) How do I link to my custom js files?
-
+Questions:
+###### 1) How do I `require`/`import` bootstrap/jquery/popper.js in my project?
+###### 2) Where should I save my custom css files?
+###### 3) How do I link to my custom css files?
+###### 4) Where should I save my custom js files?
+###### 5) How do I link to my custom js files?
+###### 6) Seriously... can I start coding now?
 
