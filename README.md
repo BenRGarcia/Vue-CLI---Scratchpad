@@ -112,10 +112,8 @@ plugins: [
 
 My Personal FAQs:
 
-**Q: Where should I save/how do I link my custom css files?**
+**Q: Where should I save/how do I link my custom .css/.js files?**
 
-A: 
+A1: (Where to save) You can save your files anywhere in your `src/` folder... webpack is awesome and will find it. But for good hygiene, it's probably best if you save them according to a "Folders-by-Feature" structure.
 
-**Where should I save/how do I link my custom js files?**
-
-A: 
+A2: (How to link) I think I know the answer... but I'm playing around to see if I'm right. Will return with what works.
