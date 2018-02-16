@@ -116,7 +116,7 @@ My Personal FAQs:
 
 A1: (Where to save) You can save your files anywhere in your `src/` folder... webpack is awesome and will find it. But for good hygiene, it's probably best if you save them according to a ["Folders-by-Feature"](https://github.com/johnpapa/angular-styleguide/blob/master/a1/README.md#application-structure) structure.
 
-A2: (How to link) For a Vue.js project, components (think of a .vue file with `<template>`/`<script>`/`<style scoped>`) import other Vue.js components with the:
+A2: (How to link) For a Vue.js project, components (think of a .vue file with `<template>`/`<script>`/`<style scoped>`) import other .vue components with the:
 ```js
 import <file-name or export-name> from './file-path-to/component'
 ```
