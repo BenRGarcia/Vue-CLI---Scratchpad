@@ -90,7 +90,7 @@ $(function () {
 > In your root directory:  
 > ```$ npm install -D style-loader css-loader```  
 > In **`build/webpack.base.conf.js`**, inside of the `module.exports` object, add this object:
-```js
+> ```js
 {
   test: /\.css$/,
   use: ['style-loader', 'css-loader']
