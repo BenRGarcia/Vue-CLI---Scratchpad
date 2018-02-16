@@ -75,9 +75,9 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 2) By default, webpack can only compute javascript (e.g. not CSS). Since we need webpack to handle Bootstrap's CSS, we need a couple webpack "loaders" - [webpack guide here](https://webpack.js.org/guides/asset-management/#loading-css)
 
-Here's the good news: **`vue-loader` is already in the CLI and we should NOT follow bootstrap's webpack instructions here**
+Here's the good news: **Vue.js' `vue-loader` is already in the CLI and already handles the `style-loader` and `css-loader` stuff. We should NOT follow bootstrap's webpack instructions for those 2 things**
 
-But if you needed to do this manually for a different, non-Vue-CLI project:
+FYI: If you needed to do this manually for a different, non-Vue-CLI project:
 
 In your root directory:
 ```$ npm install -D style-loader css-loader```
@@ -90,7 +90,7 @@ inside of the `module.exports` object, add this object:
   test: /\.css$/,
   use: ['style-loader', 'css-loader']
 } 
-// Aaaaaand now webpack can handle CSS
+// Aaaaaand now your non-Vue-CLI webpack project can handle CSS
 ```
 
 3) Use webpack's [ProvidePlugin](https://webpack.js.org/plugins/provide-plugin/) to automatically load modules (e.g. jQuery and Popper.js) instead of having to `import` or `require` them everywhere
