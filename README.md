@@ -114,6 +114,6 @@ My Personal FAQs:
 
 **Q: Where should I save/how do I link my custom .css/.js files?**
 
-A1: (Where to save) You can save your files anywhere in your `src/` folder... webpack is awesome and will find it. But for good hygiene, it's probably best if you save them according to a "Folders-by-Feature" structure.
+A1: (Where to save) You can save your files anywhere in your `src/` folder... webpack is awesome and will find it. But for good hygiene, it's probably best if you save them according to a ["Folders-by-Feature"](https://github.com/johnpapa/angular-styleguide/blob/master/a1/README.md#application-structure) structure.
 
 A2: (How to link) I think I know the answer... but I'm playing around to see if I'm right. Will return with what works.
