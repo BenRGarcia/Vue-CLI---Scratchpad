@@ -6,7 +6,7 @@ Create a project using Vue.js CLI, webpack, bootstrap v4, git for version contro
 
 ### Links:
 
-A ready-to-go project template I made: [Vue.js Template](https://github.com/BenRGarcia/Vue.js-Bootstrapv4-Template)
+A ready-to-go (archived/disfunctional) project template I made: [Vue.js Template](https://github.com/BenRGarcia/Vue.js-Bootstrapv4-Template)
 
 [Vue.js 2.x Guide](https://vuejs.org/v2/guide/installation.html#CLI)
 
@@ -24,7 +24,8 @@ From GitHub, "Create New Repository" -- don't create README yet, and don't clone
 ### 2) Create new Vue.js project using the webpack template
 1) `$ vue init webpack <project-title>` and then follow prompts
 2) `$ cd <project-title>` (enter newly created directory)
-3) go to `/config/index.js`, find the `build` object, and change `assetsPublicPath:`'s value to `'./`
+3) go to `/config/index.js`, find the `build` object, and change `assetsPublicPath:`'s value to `/<github repo name>/`  
+ex. If my GitHub repo name was "my-project", then my `assetsPublicPath:` should be `/my-project/`
 4) back in root directory, `$ npm run build` to bundle project into newly created `dist/` folder
 
 ### 3) Initialize git repo
