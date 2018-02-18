@@ -24,7 +24,7 @@ From GitHub, "Create New Repository" -- don't create README yet, and don't clone
 ### 2) Create new Vue.js project using the webpack template
 1) `$ vue init webpack <project-title>` and then follow prompts
 2) `$ cd <project-title>` (enter newly created directory)
-3) go to `/config/index.js`, find the `build` object, and change `assetsPublicPath:`'s value to `'/<github repo name>/'`  
+3) go to `/config/index.js`, find the `build` object, and change `assetsPublicPath:`'s to `'/<github repo name>/'`  
 ex. If my GitHub repo name was "my-project", then my `assetsPublicPath:` would be `'/my-project/'`
 4) back in root directory, `$ npm run build` to bundle project into newly created `dist/` folder
 
